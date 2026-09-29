@@ -5,24 +5,15 @@ Pasos para dejar todo listo antes de la primera práctica.
 ## 1. Cuenta de GitHub
 
 1. Crea una cuenta gratuita en <https://github.com> (si ya tienes una, sirve).
-2. Usa un nombre de usuario reconocible (por ejemplo `nombre-apellido`). Es el que verá el profesor en las entregas.
-3. Opcional pero recomendable: solicita el paquete educativo en <https://education.github.com> para tener más horas de Codespaces.
+2. Usa un nombre de usuario reconocible (por ejemplo `nombre-apellido`) y **pásaselo al profesor**: con él te dará de alta en la clase.
+3. Te llegará un correo de invitación a la organización **guille-class**. Acéptalo (también puedes hacerlo en <https://github.com/orgs/guille-class/invitation>). Sin este paso no funcionan los enlaces de las prácticas.
 
 ## 2. Aceptar una práctica
 
-1. Abre el enlace de invitación que el profesor publica en el aula virtual.
-2. La primera vez, busca tu nombre en la lista de la clase y selecciónalo.
-3. Pulsa **Accept this assignment**. GitHub crea un repositorio privado solo para ti, con el enunciado y los ficheros de partida.
+1. Abre el enlace de la práctica que el profesor publica en el aula virtual e inicia sesión con GitHub.
+2. Acepta la práctica. Se crea un repositorio privado solo para ti, con el enunciado y los ficheros de partida, llamado `<clase>-<práctica>-<tu-usuario>`.
 
-## 3. Dónde programar
-
-Tienes dos opciones; las dos valen igual.
-
-### Opción A · Codespaces (sin instalar nada)
-
-En tu repositorio de la práctica pulsa **Code → Codespaces → Create codespace on main**. Se abre VS Code en el navegador con Python ya instalado.
-
-### Opción B · Tu propio ordenador
+## 3. Preparar tu ordenador
 
 1. Instala **Python 3.12** desde <https://www.python.org/downloads/> (en Windows marca *Add python.exe to PATH*).
 2. Instala **Visual Studio Code** y su extensión **Python**.
@@ -32,9 +23,9 @@ En tu repositorio de la práctica pulsa **Code → Codespaces → Create codespa
    git config --global user.name "Tu Nombre"
    git config --global user.email "tu-correo@ejemplo.com"
    ```
-5. Clona tu repositorio (botón **Code → HTTPS**, copia la URL):
+5. Clona tu repositorio de la práctica (botón **Code → HTTPS**, copia la URL):
    ```bash
-   git clone https://github.com/ORGANIZACION/nombre-del-repo.git
+   git clone https://github.com/guille-class/nombre-de-tu-repo.git
    ```
 
 ## 4. Flujo de trabajo en cada práctica
@@ -51,7 +42,7 @@ git push                     # entregar
 
 - Haz *commit* a menudo, cada vez que termines un ejercicio.
 - Se revisa la **última versión subida** antes de la fecha de entrega.
-- En la pestaña **Actions** de tu repositorio aparece el resultado de las comprobaciones: ✅ todo correcto, ❌ algo falla (entra para ver qué).
+- Cada *push* lanza la corrección automática en la pestaña **Actions** de tu repositorio: ✅ todo correcto, ❌ algo falla (entra para ver qué).
 
 ## 5. Si algo falla
 

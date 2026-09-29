@@ -2,7 +2,7 @@
 
 Material del módulo **Programación en Python** de 2º de ASIR (curso 2026-2027).
 
-Aquí tienes los apuntes y ejemplos de cada tema. Las prácticas se entregan con **GitHub Classroom**: el profesor te dará un enlace de invitación para cada una y GitHub te creará automáticamente tu propio repositorio de entrega.
+Aquí tienes los apuntes y ejemplos de cada tema. Las prácticas se entregan con **Classroom 50** (sobre GitHub): el profesor te dará un enlace para aceptar cada una y se creará automáticamente tu propio repositorio privado de entrega.
 
 **Primera vez:** lee [Puesta en marcha](docs/puesta-en-marcha.md) (cuenta de GitHub, VS Code, Python y cómo entregar).
 

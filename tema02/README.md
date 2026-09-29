@@ -4,7 +4,7 @@
 
 ## ¿Dónde programar?
 
-Un **editor de código** (VS Code, Sublime Text, Notepad++) es ligero y admite muchos lenguajes mediante extensiones. Un **IDE** (Visual Studio, Eclipse, PyCharm) añade depurador, compilación y pruebas, a costa de consumir más recursos. En este curso usaremos **VS Code** (o Codespaces, que es VS Code en el navegador) y, más adelante, Jupyter.
+Un **editor de código** (VS Code, Sublime Text, Notepad++) es ligero y admite muchos lenguajes mediante extensiones. Un **IDE** (Visual Studio, Eclipse, PyCharm) añade depurador, compilación y pruebas, a costa de consumir más recursos. En este curso usaremos **VS Code** y, más adelante, Jupyter.
 
 ## Flujo, comentarios e indentación
 
